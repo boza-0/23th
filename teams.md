@@ -1,0 +1,23 @@
+http://localhost:3002/teams
+
+[{"id":1,"name":"Sevilla FC","stadium":"Ramón Sánchez-Pizjuán","founded":1890,"players":[{"id":1,"name":"Yassine Bounou","position":"Goalkeeper","number":13},{"id":2,"name":"Jesús Navas","position":"Right Back","number":16},{"id":3,"name":"Ivan Rakitić","position":"Midfielder","number":10},{"id":4,"name":"Lucas Ocampos","position":"Winger","number":5},{"id":5,"name":"Youssef En-Nesyri","position":"Striker","number":15}]},{"id":2,"name":"Real Betis","stadium":"Benito Villamarín","founded":1907,"players":[{"id":1,"name":"Claudio Bravo","position":"Goalkeeper","number":25},{"id":2,"name":"Héctor Bellerín","position":"Right Back","number":2},{"id":3,"name":"Guido Rodríguez","position":"Midfielder","number":5},{"id":4,"name":"Nabil Fekir","position":"Attacking Midfielder","number":8},{"id":5,"name":"Borja Iglesias","position":"Striker","number":9}]}]
+
+http://localhost:3002/teams/1
+
+{"id":1,"name":"Sevilla FC","stadium":"Ramón Sánchez-Pizjuán","founded":1890,"players":[{"id":1,"name":"Yassine Bounou","position":"Goalkeeper","number":13},{"id":2,"name":"Jesús Navas","position":"Right Back","number":16},{"id":3,"name":"Ivan Rakitić","position":"Midfielder","number":10},{"id":4,"name":"Lucas Ocampos","position":"Winger","number":5},{"id":5,"name":"Youssef En-Nesyri","position":"Striker","number":15}]}
+
+http://localhost:3002/teams/2
+
+{"id":2,"name":"Real Betis","stadium":"Benito Villamarín","founded":1907,"players":[{"id":1,"name":"Claudio Bravo","position":"Goalkeeper","number":25},{"id":2,"name":"Héctor Bellerín","position":"Right Back","number":2},{"id":3,"name":"Guido Rodríguez","position":"Midfielder","number":5},{"id":4,"name":"Nabil Fekir","position":"Attacking Midfielder","number":8},{"id":5,"name":"Borja Iglesias","position":"Striker","number":9}]}
+
+http://localhost:3002/teams/2/players
+
+[{"id":1,"name":"Claudio Bravo","position":"Goalkeeper","number":25},{"id":2,"name":"Héctor Bellerín","position":"Right Back","number":2},{"id":3,"name":"Guido Rodríguez","position":"Midfielder","number":5},{"id":4,"name":"Nabil Fekir","position":"Attacking Midfielder","number":8},{"id":5,"name":"Borja Iglesias","position":"Striker","number":9}]
+
+http://localhost:3002/teams/2/players/4
+
+{"id":4,"name":"Nabil Fekir","position":"Attacking Midfielder","number":8}
+
+http://localhost:3002/teams/1/players/position/Midfielder
+
+[{"id":3,"name":"Ivan Rakitić","position":"Midfielder","number":10}]
